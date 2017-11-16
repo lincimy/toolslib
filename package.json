@@ -2,7 +2,7 @@
   "name": "toolslib",
   "version": "1.0.0",
   "description": "前端业务代码工具库",
-  "main": "index.js",
+  "main": "min/toolslib.min.js",
   "scripts": {
     "build": "node script/build.js",
     "test": "karma start"
