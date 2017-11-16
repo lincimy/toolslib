@@ -10,7 +10,6 @@
 ## 安装使用
 
 1. 直接下载`min`目录下的[toolslib.min.js](https://github.com/lincimy/toolslib/tree/master/min/toolslib.min.js)使用
-2. 使用npm安装
 
 ### 浏览器:
 ``` html
@@ -20,27 +19,6 @@
   </script>
 ```
 
-### npm:
-``` bash
-$ npm install --save-dev toolslib
-```
-
-webpack、RequireJS、SeaJS等
-
-``` javascript
-// 完整引入
-const toolslib = require('toolslib')
-const flag = toolslib.arrayEqual([1,2],[1,2])
-```
-
-**推荐使用方法**  
-
-你真的不需要完整引入所有函数，所以只引入需要使用的方法即可。
-``` javascript
-// 只引入部分方法('toolslib/<方法名>')
-const arrayEqual = require('toolslib/arrayEqual')
-const flag = arrayEqual([1,2],[1,2])
-```
 ## API文档
 
 ### Array  
