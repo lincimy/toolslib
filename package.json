@@ -1,0 +1,44 @@
+{
+  "name": "toolslib",
+  "version": "1.0.0",
+  "description": "前端业务代码工具库",
+  "main": "index.js",
+  "scripts": {
+    "build": "node script/build.js",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lincimy/toolslib.git"
+  },
+  "keywords": [
+    "util",
+    "tools"
+  ],
+  "author": "lincimy",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "chalk": "^2.3.0",
+    "copy": "^0.3.1",
+    "karma": "^1.7.1",
+    "karma-chai": "^0.1.0",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.3.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "koa": "^2.4.1",
+    "koa-static": "^4.0.1",
+    "mocha": "^4.0.1",
+    "open": "0.0.5",
+    "ora": "^1.3.0",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.8.1"
+  },
+  "bugs": {
+    "url": "https://github.com/lincimy/toolslib/issues"
+  },
+  "homepage": "https://github.com/lincimy/toolslib#readme"
+}
